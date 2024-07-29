@@ -4,7 +4,7 @@ import cv2
 import pandas as pd
 import av
 from streamlit_webrtc import WebRtcMode, webrtc_streamer
-from utils import get_ice_servers
+from turn import get_ice_servers
 
 with open("config/coco.yaml", "r") as file:
     data = file.read()
