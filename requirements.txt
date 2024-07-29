@@ -1,0 +1,7 @@
+streamlit-webrtc
+ultralytics
+pandas
+openpyxl
+pyngrok
+ngrok
+opencv-python
