@@ -3,4 +3,4 @@ pydub==0.25.1
 streamlit_webrtc~=0.47.7
 twilio~=8.10.1
 matplotlib
-onnxruntime
+ultralytics
