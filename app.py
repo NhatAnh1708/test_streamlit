@@ -102,9 +102,9 @@ lock = threading.Lock()
 img_container = {"img": None}
 
 model = YOLO("yolov10n.pt")
+
 def draw_corner_lines(image, x1, y1, x2, y2, color, thickness):
     length = (x2 - x1) // 5
-    mask_img = image.copy()
     cv2.line(image, (x1, y1), (x1 + length, y1), color, thickness)
     cv2.line(image, (x1, y1), (x1, y1 + length), color, thickness)
     # Top-right corner
